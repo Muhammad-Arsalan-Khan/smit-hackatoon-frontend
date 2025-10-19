@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu'
 import Cookies from 'js-cookie'
 import { useState } from 'react'
-import logo from "../assets/logo.PNG"
+// import logo from "../assets/logo.PNG"
 
 
 const Navbar = () => {
@@ -68,7 +68,8 @@ const Navbar = () => {
           }}
         >
           <Typography variant="h5" fontWeight={700} marginLeft={3.6} color="#8BC441" sx={{ display: "flex", alignItems: "center" }}>
-            <img src={logo} alt="Logo" style={{ height: 70, marginRight: 16 }} />
+            {/* <img src={logo} alt="Logo" style={{ height: 70, marginRight: 16 }} /> */}
+            HealthMat Pro
           </Typography>
 
           <Box sx={{ display: { xs: "block", sm: "none" } }}>
